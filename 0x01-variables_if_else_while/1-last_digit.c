@@ -10,7 +10,7 @@ int main(void)
 	int a;
 	int b;
 
-	$rand(time(0));
+	srand(time(0));
 	n = rand() RAND_MAX / 2;
 	b = a % 10;
 
@@ -24,7 +24,7 @@ int main(void)
 	}
 	else
 	{
-		printf("Last digit of %d id %d and is less than 6 and not 0\n", a, b);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", a, b);
 	}
 	return (0)
 }
