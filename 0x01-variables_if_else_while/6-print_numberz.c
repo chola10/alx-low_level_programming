@@ -5,13 +5,14 @@
  */
 int main(void)
 {
-	int num;
+	int c;
 
-	for (num = 0; num <= 10; num++)
-		putchar((num % 10) + '0');
-
-	putchar("\n");
-
+	c = 0;
+	while
+		(c < 10) {
+		putchar(c);
+		c++;
+		}
+	putchar('\n');
 	return (0);
 }
-
