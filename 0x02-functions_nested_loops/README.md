@@ -1,1 +1,1 @@
-Task 0. print _putchar
+Solutions for functions and nested loops
