@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * void print_to_98 - prints all numbers from input to 98
+ * print_to_98 - prints all numbers from input to 98
  * @n: The starting number
  */
-void print_to_98(int n) 
+void print_to_98(int n)
 {
 	if (n >= 98)
 	{
