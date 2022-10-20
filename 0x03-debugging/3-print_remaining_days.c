@@ -1,14 +1,14 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * print_remaining_days - picks a day
+ * print_remaining_days - picks a date
  * and prints how many are left
  * @month: month in number format
  * @day: day of the month
  * @year: year
- * Return: void
+ * Return: 0
  */
-void print_remaining_days(int month, int day, int year)
+int print_remaining_days(int month, int day, int year)
 {
 	if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0))
 	{
@@ -32,4 +32,5 @@ void print_remaining_days(int month, int day, int year)
 		printf("Remaining days: %d\n", 365 - day);
 		}
 	}
+	return (0);
 }
