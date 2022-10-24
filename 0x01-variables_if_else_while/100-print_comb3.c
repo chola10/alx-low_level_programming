@@ -1,22 +1,25 @@
 #include <stdio.h>
+
 /**
- * main - prints all different combinations of two digits
- * Return: Always 0
+ *main - Writes 00 - 99
+ *@void: Empty parameter list for main.
+ *Description: Writes all unique combinations
+ *of 2 numbers
+ *Return: 0 for success
  */
 int main(void)
 {
-	int ones = '0';
-	int tens = '0';
+	int i, j;
 
-	for (tens = '0'; tens <= '9'; tens++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		for (ones = '0'; ones <= '9'; ones++)
+		for (j = '0'; j <= '9'; j++)
 		{
-			if (!((ones == tens) || (tens > ones)))
+			if ((i < j) & (j <= '9'))
 			{
-				putchar(tens);
-				putchar(ones);
-				if (!(ones == '9') && (tens == '8'))
+				putchar(i);
+				putchar(j);
+				if ((j < '9') | (i < '8'))
 				{
 					putchar(',');
 					putchar(' ');
