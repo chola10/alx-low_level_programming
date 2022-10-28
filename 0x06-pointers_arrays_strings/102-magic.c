@@ -1,12 +1,6 @@
 #include <stdio.h>
 
-/*
- * main - Entry point
- * Description: prints the variable address location
- * Return: return addresss
- */
-
-void int main(int n)
+int main(void)
 {
 int n;
 int a[5];
