@@ -1,0 +1,1 @@
+Solution to static libraries
