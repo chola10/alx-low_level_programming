@@ -1,1 +1,1 @@
-Solutions to 0x18-dynamic_libraries
+Slolutions to 0x18-dynamic_libraries
